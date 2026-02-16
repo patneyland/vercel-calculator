@@ -1,5 +1,7 @@
 # Modern Calculator
 
+![Tests](https://github.com/patneyland/vercel-calculator/actions/workflows/tests.yml/badge.svg)
+
 A modern, iOS-inspired calculator built with Next.js App Router, TypeScript, and Tailwind CSS.
 
 ## Features
