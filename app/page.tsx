@@ -233,10 +233,16 @@ export default function Home() {
     <main className="min-h-screen px-4 py-10 md:py-14 text-white">
       <div className="mx-auto flex max-w-md flex-col gap-6 rounded-[32px] border border-white/5 bg-calc-surface/90 p-6 shadow-soft backdrop-blur">
         <div className="rounded-3xl bg-calc-display/80 px-4 py-6 shadow-glow">
-          <div className="min-h-[24px] text-right text-sm tracking-wide text-calc-muted">
+          <div
+            className="min-h-[24px] text-right text-sm tracking-wide text-calc-muted"
+            data-testid="expression"
+          >
             {expression || "\u00A0"}
           </div>
-          <div className="mt-2 flex min-h-[48px] items-center justify-end text-4xl font-semibold">
+          <div
+            className="mt-2 flex min-h-[48px] items-center justify-end text-4xl font-semibold"
+            data-testid="display"
+          >
             {input}
           </div>
         </div>

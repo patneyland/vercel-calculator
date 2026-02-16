@@ -25,6 +25,13 @@ npm run build
 npm run start
 ```
 
+## Tests
+
+```bash
+npm run test
+npm run test:e2e
+```
+
 ## Deploy to Vercel
 
 1. Go to https://vercel.com/new
